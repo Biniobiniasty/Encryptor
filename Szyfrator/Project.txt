@@ -1,0 +1,13 @@
+[PROGRAM OKIENKOWY]
+
+[Zalozenia]
+1. Dane wejsciowe 
+    -> Tekst jawny/zaszyfrowany
+    -> Klucz uzywany do szyfrowania/deszyfrowania 
+    
+2. Dlugosc klucza to min. 5 znakow max 40.
+
+3. Algorytm szyfrowania (indywidualna implementacja).
+
+[Funkcjonalnosc]
+1. Program pozwala na szyfrowanie i deszyfrowanie wiadomosci przy uzyciu tego samego klucza.
