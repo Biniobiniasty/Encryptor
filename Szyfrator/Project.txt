@@ -5,7 +5,7 @@
     -> Tekst jawny/zaszyfrowany
     -> Klucz uzywany do szyfrowania/deszyfrowania 
     
-2. Dlugosc klucza to min. 5 znakow max 40.
+2. Dlugosc klucza to min. 5 znakow max 40 (bez spacji).
 
 3. Algorytm szyfrowania (indywidualna implementacja).
 
