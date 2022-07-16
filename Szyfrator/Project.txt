@@ -12,3 +12,6 @@
 [Funkcjonalnosc]
 1. Program pozwala na szyfrowanie i deszyfrowanie wiadomosci przy uzyciu tego samego klucza.
 2. Mozliwosc zapisu danych do pliku.
+
+[Design]
+1. Only dark mode.
