@@ -7,7 +7,7 @@
     
 2. Dlugosc klucza to min. 5 znakow max 40 (bez spacji).
 
-3. Dlugosc szyfrowanej wiadomosc od 1 do 5000 znakow.
+3. Dlugosc szyfrowanej wiadomosc od 1 do 2000 znakow.
 
 4. Algorytm szyfrowania (indywidualna implementacja).
 
