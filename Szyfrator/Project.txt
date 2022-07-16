@@ -7,7 +7,9 @@
     
 2. Dlugosc klucza to min. 5 znakow max 40 (bez spacji).
 
-3. Algorytm szyfrowania (indywidualna implementacja).
+3. Dlugosc szyfrowanej wiadomosc od 1 do 5000 znakow.
+
+4. Algorytm szyfrowania (indywidualna implementacja).
 
 [Funkcjonalnosc]
 1. Program pozwala na szyfrowanie i deszyfrowanie wiadomosci przy uzyciu tego samego klucza.
