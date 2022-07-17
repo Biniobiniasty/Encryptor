@@ -24,7 +24,7 @@ public class Pliki {
 		String dane = "";
 
 		while (fo.hasNextLine())
-			dane += fo.nextLine();
+			dane += fo.nextLine() + '\n';
 
 		return dane;
 
