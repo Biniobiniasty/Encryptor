@@ -78,7 +78,7 @@ public class MainSzyfrowanie extends JFrame {
 		txtAsdf.setBounds(68, 16, 912, 31);
 		txtAsdf.setFont(new Font("Yu Gothic UI Semibold", Font.BOLD, 18));
 		txtAsdf.setForeground(Color.ORANGE);
-		txtAsdf.setText("asdf");
+		txtAsdf.setText("min5znakow");
 		txtAsdf.setBackground(new Color(0, 0, 51));
 		txtAsdf.setColumns(10);
 
@@ -111,7 +111,7 @@ public class MainSzyfrowanie extends JFrame {
 		txtpnText.setFont(new Font("Yu Gothic Medium", Font.PLAIN, 14));
 		txtpnText.setBackground(new Color(0, 0, 51));
 		txtpnText.setForeground(Color.ORANGE);
-		txtpnText.setText("Text");
+		txtpnText.setText("min 1 max 2000 znakowt do szyfrowania");
 
 		JLabel lblNewLabel_1_1 = new JLabel("Key:");
 		lblNewLabel_1_1.setBounds(15, 22, 31, 25);
@@ -126,12 +126,10 @@ public class MainSzyfrowanie extends JFrame {
 		lblNewLabel_1_1_1.setFont(new Font("Yu Gothic Medium", Font.BOLD, 15));
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				txtpnText.setVisible(false);
 				String key = txtAsdf.getText();
 				String text = txtpnText.getText();
 				String textSzyfr = szyfr.Szyfruj(text, key);
 				txtpnText.setText(textSzyfr);
-				txtpnText.setVisible(true);
 			}
 		});
 		btnNewButton_1.addActionListener(new ActionListener() {
