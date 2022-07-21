@@ -114,7 +114,7 @@ public class MainSzyfrowanie extends JFrame {
 		txtpnText.setText("min 1 max 2000 znakowt do szyfrowania");
 
 		JLabel lblNewLabel_1_1 = new JLabel("Key:");
-		lblNewLabel_1_1.setBounds(15, 22, 31, 25);
+		lblNewLabel_1_1.setBounds(15, 22, 53, 25);
 		lblNewLabel_1_1.setForeground(Color.YELLOW);
 		lblNewLabel_1_1.setFont(new Font("Yu Gothic Medium", Font.BOLD, 15));
 
